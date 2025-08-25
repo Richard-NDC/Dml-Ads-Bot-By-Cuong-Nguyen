@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project baseDir="." outputDir="..\Protected">
+  <!-- Không dùng preset nào khác -->
+  <rule pattern="true" preset="none">
+    <protection id="anti dump" />
+    <protection id="anti debug" />
+  </rule>
+
+  <module path="WindowsFormsApp1.exe" />
+</project>
